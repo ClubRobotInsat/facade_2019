@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Facade-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -20,7 +19,7 @@ U 1 1 5CA609F8
 P 3350 3050
 F 0 "J2" V 3223 3130 50  0000 L CNN
 F 1 "Conn_01x02" V 3314 3130 50  0000 L CNN
-F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 3350 3050 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" H 3350 3050 50  0001 C CNN
 F 3 "~" H 3350 3050 50  0001 C CNN
 	1    3350 3050
 	0    1    1    0   
@@ -75,7 +74,7 @@ U 1 1 5CA62E7B
 P 5600 3050
 F 0 "J4" V 5473 3130 50  0000 L CNN
 F 1 "Conn_01x02" V 5564 3130 50  0000 L CNN
-F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 5600 3050 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" H 5600 3050 50  0001 C CNN
 F 3 "~" H 5600 3050 50  0001 C CNN
 	1    5600 3050
 	0    1    1    0   
@@ -128,7 +127,7 @@ U 1 1 5CA630BE
 P 6650 3050
 F 0 "J5" V 6523 3130 50  0000 L CNN
 F 1 "Conn_01x02" V 6614 3130 50  0000 L CNN
-F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 6650 3050 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" H 6650 3050 50  0001 C CNN
 F 3 "~" H 6650 3050 50  0001 C CNN
 	1    6650 3050
 	0    1    1    0   
