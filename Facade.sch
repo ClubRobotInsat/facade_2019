@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Facade-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -335,7 +336,6 @@ F 3 "~" H 4000 3750 50  0001 C CNN
 	1    4000 3750
 	0    -1   -1   0   
 $EndComp
-Connection ~ 4000 3750
 Wire Wire Line
 	4000 3750 4000 3800
 Wire Wire Line
@@ -355,4 +355,29 @@ Wire Wire Line
 	2900 1950 2900 2050
 Wire Wire Line
 	2400 1950 2400 2050
+Connection ~ 4000 3750
+$Comp
+L power:GND #PWR01
+U 1 1 5CDD94CA
+P 1700 2200
+F 0 "#PWR01" H 1700 1950 50  0001 C CNN
+F 1 "GND" H 1705 2027 50  0000 C CNN
+F 2 "" H 1700 2200 50  0001 C CNN
+F 3 "" H 1700 2200 50  0001 C CNN
+	1    1700 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 2150 1700 2200
+$Comp
+L Connector_Generic:Conn_01x01 J3
+U 1 1 5CDD9E53
+P 1700 1950
+F 0 "J3" V 1666 1862 50  0000 R CNN
+F 1 "Conn_01x01" V 1575 1862 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical" H 1700 1950 50  0001 C CNN
+F 3 "~" H 1700 1950 50  0001 C CNN
+	1    1700 1950
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
